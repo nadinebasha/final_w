@@ -1,0 +1,141 @@
+body {
+  margin: 0;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  background: #e6f7e6; /* Light green background */
+  color: #333;
+}
+
+.landing-container {
+  width: 100%;
+  overflow: hidden;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  background: #2ecc71; /* Green header */
+  color: #fff;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav-links a {
+  margin: 0 15px;
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #b9fbc0; /* Light green hover effect */
+}
+
+.hero-section {
+  text-align: center;
+  padding: 80px 20px;
+  background: #27ae60; /* Darker green */
+  color: #fff;
+}
+
+.hero-section h1 {
+  font-size: 42px;
+  margin-bottom: 15px;
+}
+
+.hero-section p {
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+
+.search-bar {
+  display: flex;
+  justify-content: center;
+}
+
+.search-bar input {
+  padding: 12px;
+  width: 350px;
+  border-radius: 30px 0 0 30px;
+  border: 2px solid #fff;
+  outline: none;
+  font-size: 16px;
+  color: #333;
+}
+
+.search-bar button {
+  padding: 12px 25px;
+  border-radius: 0 30px 30px 0;
+  border: none;
+  background: #2ecc71; /* Matching green */
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.search-bar button:hover {
+  background: #28b463; /* Slightly darker green */
+}
+
+.featured-events, .categories {
+  padding: 50px 20px;
+  text-align: center;
+  background: #f8fff8; /* Off-white background */
+}
+
+.featured-events h2, .categories h2 {
+  font-size: 30px;
+  color: #27ae60;
+  margin-bottom: 20px;
+}
+
+.events-grid, .categories-grid {
+  display: grid;
+  gap: 15px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.event-card, .category-card {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.event-card:hover, .category-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.footer {
+  background: #2ecc71;
+  color: #fff;
+  padding: 15px;
+  text-align: center;
+}
+
+.footer p {
+  margin: 0;
+}
+/* LandingPage.css */
+.logout-button {
+  background-color: #28b463; /* green background */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-left: 20px;
+}
+
+.logout-button:hover {
+  background-color: #28b463; /* Darker green on hover */
+}
